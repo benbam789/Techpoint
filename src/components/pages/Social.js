@@ -1,6 +1,9 @@
 import React from 'react';
-import '../../App.css'
+import '../../App.css';
+import Topbar from './SocialPageComp/Topbar';
 
 export default function Social() {
-  return <h1 className='social'>Social</h1>
+  return (
+    <Topbar />
+  )
 }

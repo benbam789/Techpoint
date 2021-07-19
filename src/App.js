@@ -4,8 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Markets from './components/pages/Markets';
 import Social from './components/pages/Social';
-//import Home from './components/pages/Home';
-
+import Home from './components/pages/Home';
 function App() {
   return (
     <>
@@ -13,7 +12,7 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route path='/' exact />
+        <Route path='/' exact component={Home}/>
         <Route path='/markets' component={Markets} />
         <Route path='/social' component={Social} />
       </Switch>
