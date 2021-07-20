@@ -6,7 +6,8 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <h1>ADVENTURE AWAITS</h1>
+      <video src='/videos/video-1.mp4' autoPlay loop muted />
+      <h1>HEALTHY EATING MADE EASY</h1>
       <p>What are you waiting on</p>
       <div className='hero-btns'>
         <Button

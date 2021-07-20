@@ -1,7 +1,7 @@
 .topbarContainer{
   height: 50px;
   width: 100%;
-  background-color: rgb(130, 130, 248);
+  background-color: rgb(108, 108, 116);
   display: flex;
   align-items: center;
   position: sticky;

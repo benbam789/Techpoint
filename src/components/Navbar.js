@@ -17,10 +17,6 @@ function Navbar() {
       setButton(true);
     }
   };
-
-  //useEffect(() => {
-  //  showButton();
-  //}, []);
   
   window.addEventListener('resize', showButton);
 
@@ -46,7 +42,7 @@ function Navbar() {
             </Link>
           </li>
           <li className = 'nav-item'>
-            <Link to='/social' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/socials' className='nav-links' onClick={closeMobileMenu}>
               Social
             </Link>
           </li>

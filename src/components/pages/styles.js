@@ -5,7 +5,7 @@ export default makeStyles (() => ({
     maxWidth:'100%',
   },
   media: {
-    height: 0,
+    height: 160,
     paddingTop:'56.25',
   },
   cardActions: {
