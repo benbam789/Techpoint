@@ -1,0 +1,33 @@
+.productbarContainer{
+  height: 60px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.productbarLeft{
+  flex: 3;
+}
+
+.productlogo{
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: rgb(70, 67, 67);
+}
+
+.productbarCenter{
+  flex: 5;
+}
+
+.productbarRight{
+  flex: 0.4;
+  display: flex;
+  /*align-items: center;
+  /*justify-content: space-around;
+  */
+  color: rgb(219, 208, 51);
+}

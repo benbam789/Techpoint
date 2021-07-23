@@ -3,12 +3,20 @@ import { Button } from './Button';
 import '../App.css';
 import './HeroSection.css';
 
+/*<Button
+          className='btns'
+          buttonStyle='btn--primary'
+          buttonSize='btn--large'
+          onCLick={console.log('hey')}
+        >
+          WATCH TRAILER <i className='far fa-play-circle' />
+        </Button>*/
+
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/video-1.mp4' autoPlay loop muted />
       <h1>HEALTHY EATING MADE EASY</h1>
-      <p>What are you waiting on</p>
+      <p>WHAT ARE YOU WAITING ON</p>
       <div className='hero-btns'>
         <Button
           className='btns'
@@ -16,14 +24,6 @@ function HeroSection() {
           buttonSize='btn--large'
         >
           GET STARTED
-        </Button>
-        <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-          onCLick={console.log('hey')}
-        >
-          WATCH TRAILER <i className='far fa-play-circle' />
         </Button>
       </div>
     </div>

@@ -10,9 +10,9 @@ const markets = [
   {id: 4, name: 'Cow milk', description: 'Produce', price: 'Prices Available', image: 'https://rawsomedairy.com/wp-content/uploads/2019/01/milk-bottles-300x232.jpg'},
   {id: 5, name: 'Cheese', description: 'Produce', price: 'Prices Available', image: 'https://www.ymcamidtn.org/sites/default/files/styles/media_full/public/legacy/_assets/images/blog/farmers-market-cheese.jpg?itok=eSOKsi1H'},
   {id: 6, name: 'Blueberries', description: 'Produce', price: 'Prices Available', image: 'https://th.bing.com/th/id/OIP.blYHQSO-oZ4PgeZ7yhmJogHaE8?w=256&h=180&c=7&o=5&dpr=1.25&pid=1.7'},
-  {id: 7, name: 'Peas', description: 'Produce', price: 'Prices Available', image: 'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/soya-beans-700-350-7995f02.jpg?webp=true&quality=90&resize=385%2C350 '},
-  {id: 8, name: 'Carrots', description: 'Produce', price: 'Prices Available', image: 'https://th.bing.com/th/id/R.c7bfb94d17855b5e733f37bca17794ce?rik=ZNtxJcNTv4vyxQ&riu=http%3a%2f%2fcdn.onlyinyourstate.com%2fwp-content%2fuploads%2f2015%2f05%2f12-Corn-700x467.jpg&ehk=Ta2%2fAUzb%2bTCrgNHUQq82oErRgTnmmXXJ846%2b6qohxZU%3d&risl=&pid=ImgRaw'},
-  {id: 9, name: 'Squash', description: 'Produce', price: 'Prices Available', image: 'https://cdn.shopify.com/s/files/1/0545/4318/8159/collections/2020-08-22_17.58.14_685x.jpg?v=1613753732'},
+  {id: 7, name: 'Peas', description: 'Produce', price: 'Prices Available', image: 'https://servingjoy.com/wp-content/uploads/2015/04/Fun-Facts-of-Peas.jpg'},
+  {id: 8, name: 'Carrots', description: 'Produce', price: 'Prices Available', image: 'https://cdn.shopify.com/s/files/1/2016/2681/products/carrot-tendersweet-seed-wm_700_800x.jpg?v=1604009939'},
+  {id: 9, name: 'Squash', description: 'Produce', price: 'Prices Available', image: 'https://www.tasteofhome.com/wp-content/uploads/2019/06/squash-summer-on-display-farmers-market-shutterstock_156681845.jpg'},
 ];
 
 

@@ -22,17 +22,47 @@ function Post() {
           </div>
         </div>
         <div className="postCenter">
-          <span className="postText">Hey first post</span>
-          <img className="postImg" src="/images/farmprofile.jpg" alt=""/>
+          <span className="postText">Blue Berries out of stock</span>
+          <img className="postImg" src="/images/outofstock.jpg" alt=""/>
         </div>
         <div className="postBottom">
           <div className="postBottomLeft">
-            <img className="likeIcon" src="assets/like.png" alt="" />
-            <img className="likeIcon" src="assets/heart.png" alt="" />
-            <span className="postLikeCounter">32 people like it</span>
+            <img className="likeIcon" src="/images/like.png" alt="" />
+            <img className="likeIcon" src="/images/heart.png" alt="" />
+            <span className="postLikeCounter">28 people like it</span>
           </div>
           <div className="postBottomRight">
             <span className="postCommentText">9 comments</span>
+          </div>
+        </div>
+      </div>
+      <div className="postWrapper">
+        <div className="postTop">
+          <div className="postTopLeft">
+            <img
+              className="postProfileImg"
+              src="/images/farmprofile.jpg"
+              alt=""
+            />
+            <span className="postUsername">John Doe</span>
+            <span className="postDate">5 days ago</span>
+          </div>
+          <div className="postTopRight">
+            <MoreVert />
+          </div>
+        </div>
+        <div className="postCenter">
+          <span className="postText">15% Sale going for the next 24 hours</span>
+          <img className="postImg" src="/images/sale.jfif" alt=""/>
+        </div>
+        <div className="postBottom">
+          <div className="postBottomLeft">
+            <img className="likeIcon" src="/images/like.png" alt="" />
+            <img className="likeIcon" src="/images/heart.png" alt="" />
+            <span className="postLikeCounter">80 people like it</span>
+          </div>
+          <div className="postBottomRight">
+            <span className="postCommentText">15 comments</span>
           </div>
         </div>
       </div>
