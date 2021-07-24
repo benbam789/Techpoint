@@ -1,3 +1,11 @@
+# This project application was programmed using VS Code to build a React application. In the src folder that is where the components that were made for the app. It also holds the pages for the webite as well. 
+
+# Components: Holds the navagation bar and image for the homepage. There cards that are below the hero section are also there as well. 
+
+# pages: contains the folder for the SignUp, Social, and MarketShopping cart component. In the pages folder it has the Home, SignUp, Social, RegisterPage, and MarketPage2 pages. which are the 4 other main pages. 
+
+# The marketplace and social media coding don't have much functionality and more so hardcoded in but gives a blueprint to what we were trying to achieve. The icons and buttons work but will more time they can be could have been implemented even further but due to time and the low number of works in our group we opted to get as much of the project done.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
