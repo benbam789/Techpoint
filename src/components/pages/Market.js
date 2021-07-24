@@ -36,7 +36,7 @@ const Market = ({ market }) => {
         <IconButton aria-label="Add to Cart">
           <AddShoppingCart />
         </IconButton>
-      </CardActions>
+        </CardActions>
     </Card>
   )
 }

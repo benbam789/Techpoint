@@ -9,6 +9,7 @@ import Home from './components/pages/Home';
 import MarketPage2 from './components/pages/MarketPage2';
 import SignUp from './components/pages/SignUp';
 import RegisterPage from './components/pages/RegisterPage';
+import inventory from './components/pages/inventory';
 
 //function App() {
 const App = () => {
@@ -35,6 +36,7 @@ const App = () => {
         <Route path='/socials' component={Socials} />
         <Route path='/sign-up' component={SignUp} />
         <Route path='/register' component={RegisterPage} />
+        <Route path='/inventory' component={inventory} />
       </Switch>
     </Router>
     </>
